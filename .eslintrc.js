@@ -62,7 +62,7 @@ module.exports = {
         'no-empty-pattern': 2,
         'no-eval': 2,
         'no-ex-assign': 2,
-        'no-extend-native': 2,
+        'no-extend-native': 0,
         'no-extra-bind': 2,
         'no-extra-boolean-cast': 2,
         'no-extra-parens': [2, 'functions'],
@@ -136,7 +136,7 @@ module.exports = {
         'wrap-iife': [2, 'any'],
         'yield-star-spacing': [2, 'both'],
         'yoda': [2, 'never'],
-        'prefer-const': 2,
+        'prefer-const': 0,
         'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
         'object-curly-spacing': [2, 'always', { objectsInObjects: false }],
         'array-bracket-spacing': [2, 'never']
