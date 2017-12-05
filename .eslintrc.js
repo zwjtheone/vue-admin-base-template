@@ -73,7 +73,7 @@ module.exports = {
         "func-style": 0,
         "generator-star-spacing": [2, { "before": true, "after": true }],
         "handle-callback-err": [2, "^(err|error)$"],
-        "indent": [2, 4],
+        "indent": [2, 4, { "SwitchCase": 1 }],
         "jsx-quotes": [2, "prefer-single"],
         "key-spacing": [2, { "beforeColon": false, "afterColon": true }],
         "keyword-spacing": [2, { "before": true, "after": true }],
