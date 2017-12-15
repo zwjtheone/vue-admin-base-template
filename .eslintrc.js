@@ -109,7 +109,7 @@ module.exports = {
         "no-floating-decimal": 2,//禁止省略浮点数中的0 .5 3.
         "no-func-assign": 2,//禁止重复的函数声明
         "no-implied-eval": 2,//禁止使用隐式eval
-        "no-implicit-coercion": 1,//禁止隐式转换
+        "no-implicit-coercion": 0,//禁止隐式转换
         "no-inline-comments": 0,//禁止行内备注
         "no-inner-declarations": [2, "functions"],//禁止在块语句中使用声明（变量或函数）
         "no-invalid-regexp": 2,//禁止无效的正则表达式
