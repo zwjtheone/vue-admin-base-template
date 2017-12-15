@@ -42,8 +42,18 @@ module.exports = {
             { test: /iview.src.*?js$/, loader: "babel-loader" },
             {
                 test: /\.vue$/,
-                loader: "vue-loader",
-                options: vueLoaderConfig
+                use: [
+                    {
+                        loader: 'vue-loader',
+                        options: vueLoaderConfig
+                    },
+                    {
+                        loader: 'iview-loader',
+                        options: {
+                            prefix: false
+                        }
+                    }
+                ]
             },
             {
                 test: /\.js$/,

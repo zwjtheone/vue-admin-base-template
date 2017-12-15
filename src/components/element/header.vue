@@ -8,7 +8,7 @@
 
 <script>
     export default {
-        name: "header",
+        name: "myHeader",
         data() {
             return {};
         },
@@ -20,8 +20,8 @@
 </script>
 <style lang="less" scoped>
     .header {
-        background-color : white;
         height           : 80px;
+        background-color: #2B85E4;
         .nav {
             width       : 1170px;
             margin      : 0 auto;
