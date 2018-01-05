@@ -55,6 +55,9 @@ npm run mock
 
 -------
 
+#### v2.1.2 ( 2018/1/5 )
+ - 优化Router，跳转后滚动条置顶
+
 #### v2.1.1 ( 2017/12/29 )
  - 更新ReadeMe
  - 在index.html引入  `//cdn.polyfill.io/v2/polyfill.js`  会根据浏览器UA返回相应垫片。

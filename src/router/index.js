@@ -5,7 +5,7 @@ import Router from "vue-router";
 const _import = require(`./_import_${process.env.NODE_ENV}`);
 
 Vue.use(Router);
-export default new Router({
+const router = new Router({
     routes: [
         {
             path: "/",
@@ -14,3 +14,7 @@ export default new Router({
         }
     ]
 });
+router.afterEach(() => {
+    window.scrollTo(0, 0);
+});
+export default router;
