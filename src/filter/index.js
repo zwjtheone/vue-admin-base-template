@@ -11,9 +11,11 @@
 import timeFormate from "./timeFormate";
 import decimal from "./decimal";
 import numFormateMillion from "./numFormateMillion";
+import phonexxx from "./phonexxx";
 
 export default {
     timeFormate,
     decimal,
-    numFormateMillion
+    numFormateMillion,
+    phonexxx
 };
