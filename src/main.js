@@ -1,4 +1,5 @@
 import Vue from "vue";
+//组件懒加载
 import iView from "iview";
 import _ from 'lodash';
 
